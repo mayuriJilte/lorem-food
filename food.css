@@ -1,0 +1,243 @@
+
+.body {
+    margin: 0px;
+}
+
+.container-fluid {
+    padding: 0px;
+    display: flex;
+}
+
+.card {
+    background-image: linear-gradient(to right, #f5f0b0, #faa2c0);
+    margin: 0px;
+    display: flex;
+}
+
+.navbar {
+    background-color: #ff6666;
+    font-weight: bold;
+    color: black;
+    font-family: Georgia;
+}
+
+.icon-img {
+    height: 25px;
+}
+
+.image {
+
+    height: 42vh;
+}
+
+.food-img {
+    height: 100%;
+}
+
+.main-heading {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    padding: 12px;
+}
+
+.paragraph {
+    font-family: Microsoft Sans Serif;
+    font-size: 16px;
+    color: black;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+.btn {
+    height: 35px;
+    width: 155px;
+    background-color: #ff6666;
+    color: white;
+    margin: 12px;
+}
+
+.food-container {
+    background-image: linear-gradient(to right, #f5f0b0, #faa2c0);
+    padding: 25px;
+    display: flex;
+
+}
+
+.img-card {
+    display: flex;
+    padding: 12px;
+}
+
+.stage-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img1 {
+    padding: 12px;
+    height: 30vh;
+    width: 30vh;
+}
+
+.img2 {
+    padding: 12px;
+    height: 40vh;
+    width: 30vh;
+}
+
+.lorem-card {
+    background-color: #ff6666;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    align-items: center;
+}
+
+.heading {
+    color: black;
+}
+
+.arrow-icon {
+    height: 15px;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    .food-details {
+        padding: 12px;
+    }
+
+    .lorem-card {
+        height: 250px;
+        width: 200px;
+    }
+
+
+    .img-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .food-details {
+        padding: 24px;
+    }
+
+    .main-heading {
+        font-size: 30px;
+    }
+
+    .paragraph {
+        font-size: 24px;
+    }
+
+    .btn {
+        height: 40px;
+        width: 200px;
+    }
+
+    .image {
+        height: 50vh;
+    }
+
+    .img-card {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img1 {
+        padding: 12px;
+        height: 30vh;
+        width: 30vh;
+    }
+
+    .img2 {
+        padding: 12px;
+        height: 60vh;
+        width: 30vh;
+    }
+}
+
+@media (min-width:1200px) {
+    .food-details {
+        padding: 24px;
+        width: 70vh;
+    }
+
+    .main-heading {
+        font-size: 30px;
+    }
+
+    .paragraph {
+        font-size: 24px;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        height: 40px;
+        width: 200px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image {
+        order: 2;
+        height: 100vh;
+    }
+
+    .food-img {
+        width: 100%;
+    }
+
+    .food-container {
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .stage-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .img1 {
+        padding: 12px;
+        height: 30vh;
+        width: 30vh;
+    }
+
+    .img2 {
+        padding: 12px;
+        height: 60vh;
+        width: 30vh;
+    }
+
+    .container-fluid {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
